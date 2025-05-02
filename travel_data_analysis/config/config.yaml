@@ -1,0 +1,12 @@
+database:
+  host: "localhost"
+  port: 5432
+  database: "travel_data"
+  user: "postgres"
+  password: "123456"
+data:
+  num_bookings: 1000
+  num_customers: 500
+  output_path: "data/"  # For Spark processed output (can be a local path or cloud storage like S3)
+spark:
+  app_name: "TravelDataAnalysis"
